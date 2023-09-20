@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/university_name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/country_sample_country"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textWebPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="@string/http_www_example_com"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        android:focusable="true" />
+
+</LinearLayout>
